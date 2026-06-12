@@ -1,6 +1,6 @@
 <!-- HEADER WAVE -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=26215C,534AB7,7F77DD,AFA9EC&height=160&section=header&text=revolover00&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=62&desc=Full-Stack%20Developer%20%7C%20AI%20Integration%20Specialist&descSize=15&descAlignY=80&descColor=AFA9EC"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=26215C,534AB7,7F77DD,AFA9EC&height=160&section=header&text=Baldwin&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=62"/>
 </div>
 
 <!-- LOGO + TITLE -->
@@ -20,7 +20,7 @@
 </svg>
 
 <h2>
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=AFA9EC&center=true&vCenter=true&width=500&lines=Full-Stack+Developer+%F0%9F%9A%80;AI+Integration+Specialist+%F0%9F%A7%A0;Building+Arabic-first+Products+%F0%9F%8C%99;React+%2B+TypeScript+%2B+Supabase+%E2%9A%A1" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=AFA9EC&center=true&vCenter=true&width=500&lines=Full-Stack+Developer+%F0%9F%9A%80;AI+Integration+Expert+%F0%9F%A4%96;Arabic+%2B+English+Speaking+🗣️"/>
 </h2>
 
 <!-- STATUS BADGES -->
@@ -179,11 +179,11 @@ const baldwin = {
 
 | Category | Technologies |
 |----------|-------------|
-| **Frontend** | ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=61DAFB&style=flat-square&labelColor=0d1e1a) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square&labelColor=1c1a2e) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=flat-square&labelColor=120d1e) ![Tailwind](https://img.shields.io/badge/Tailwind-38BDF8?logo=tailwindcss&logoColor=white&style=flat-square&labelColor=0d1e2e) |
-| **UI/UX** | ![shadcn](https://img.shields.io/badge/shadcn%2Fui-D4537E?style=flat-square&labelColor=1a0d15) ![Motion](https://img.shields.io/badge/Framer_Motion-F0B429?style=flat-square&labelColor=1a1200) ![Lucide](https://img.shields.io/badge/Lucide_Icons-534AB7?style=flat-square&labelColor=120d1e) |
-| **Backend** | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white&style=flat-square&labelColor=1a1608) ![Express](https://img.shields.io/badge/Express-68A063?logo=express&logoColor=white&style=flat-square&labelColor=0a1a08) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4479A1?logo=postgresql&logoColor=white&style=flat-square&labelColor=0a1020) |
-| **AI & Tools** | ![Gemini](https://img.shields.io/badge/Gemini_API-886FBF?logo=google&logoColor=white&style=flat-square&labelColor=1a0d1e) ![Tesseract](https://img.shields.io/badge/Tesseract.js_OCR-534AB7?style=flat-square&labelColor=120d1e) ![pdfjs](https://img.shields.io/badge/pdf--lib-E24B4A?style=flat-square&labelColor=200a0a) |
-| **Deploy** | ![Vercel](https://img.shields.io/badge/Vercel-ffffff?logo=vercel&logoColor=black&style=flat-square&labelColor=111) ![Edge](https://img.shields.io/badge/Edge_Functions-7F77DD?style=flat-square&labelColor=120d1e) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=61DAFB&style=flat-square&labelColor=0d1e1a) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square&labelColor=1c1a2e) ![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite&logoColor=white&style=flat-square&labelColor=120d1e) ![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38BDF8?logo=tailwindcss&logoColor=white&style=flat-square&labelColor=0d1e2e) |
+| **UI/UX** | ![shadcn](https://img.shields.io/badge/shadcn%2Fui-D4537E?style=flat-square&labelColor=1a0d15) ![Motion](https://img.shields.io/badge/Framer_Motion-F0B429?style=flat-square&labelColor=1a1400) ![Headless UI](https://img.shields.io/badge/Headless_UI-1F2937?style=flat-square&labelColor=0d0d12) |
+| **Backend** | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white&style=flat-square&labelColor=1a1608) ![Express](https://img.shields.io/badge/Express-68A063?logo=express&logoColor=white&style=flat-square&labelColor=1a1a1a) ![Node.js](https://img.shields.io/badge/Node.js-23.2-68A063?logo=node.js&logoColor=white&style=flat-square&labelColor=1a1a1a) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white&style=flat-square&labelColor=0a0e27) |
+| **AI & Tools** | ![Gemini](https://img.shields.io/badge/Gemini_API-886FBF?logo=google&logoColor=white&style=flat-square&labelColor=1a0d1e) ![Tesseract](https://img.shields.io/badge/Tesseract.js_OCR-534AB7?style=flat-square&labelColor=120d1e) ![Transformers](https://img.shields.io/badge/%40xenova%2Ftransformers-FFD000?style=flat-square&labelColor=1a1a1a) |
+| **Deploy** | ![Vercel](https://img.shields.io/badge/Vercel-ffffff?logo=vercel&logoColor=black&style=flat-square&labelColor=111) ![Edge](https://img.shields.io/badge/Edge_Functions-7F77DD?style=flat-square&labelColor=120d1e) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-24292e?logo=github&logoColor=white&style=flat-square&labelColor=0d0d12) |
 
 </div>
 
@@ -193,13 +193,13 @@ const baldwin = {
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=revolover00&show_icons=true&theme=tokyonight&bg_color=0d0d12&border_color=534AB7&title_color=AFA9EC&text_color=c8c4e8&icon_color=7F77DD&hide_border=false&rank_icon=github&show=reviews"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=revolover00&show_icons=true&theme=tokyonight&bg_color=0d0d12&border_color=534AB7&title_color=AFA9EC&text_color=c8c4e8&icon_color=AFA9EC&card_width=400"/>
 &nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=revolover00&layout=compact&theme=tokyonight&bg_color=0d0d12&border_color=534AB7&title_color=AFA9EC&text_color=c8c4e8&hide_border=false&langs_count=6"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=revolover00&layout=compact&theme=tokyonight&bg_color=0d0d12&border_color=534AB7&title_color=AFA9EC&text_color=c8c4e8&card_width=400"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=revolover00&theme=tokyonight&background=0d0d12&border=534AB7&ring=7F77DD&fire=AFA9EC&currStreakLabel=AFA9EC&sideLabels=c8c4e8&dates=6e6a8a&currStreakNum=e2e0f0&sideNums=e2e0f0"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=revolover00&theme=tokyonight&background=0d0d12&border=534AB7&ring=7F77DD&fire=AFA9EC&currStreakLabel=AFA9EC&sideLabels=c8c4e8&dates=6e6e7c"/>
 
 </div>
 
