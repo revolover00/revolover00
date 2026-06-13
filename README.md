@@ -193,13 +193,13 @@ const baldwin = {
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=revolover00&show_icons=true&theme=tokyonight&bg_color=0d0d12&border_color=534AB7&title_color=AFA9EC&text_color=c8c4e8&icon_color=AFA9EC&card_width=400"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=revolover00&show_icons=true&theme=tokyonight&bg_color=0d0d12&border_color=534AB7&title_color=AFA9EC&text_color=c8c4e8&icon_color=AFA9EC&card_width=400&cache_seconds=1800"/>
 &nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=revolover00&layout=compact&theme=tokyonight&bg_color=0d0d12&border_color=534AB7&title_color=AFA9EC&text_color=c8c4e8&card_width=400"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=revolover00&layout=compact&theme=tokyonight&bg_color=0d0d12&border_color=534AB7&title_color=AFA9EC&text_color=c8c4e8&card_width=400&cache_seconds=1800"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=revolover00&theme=tokyonight&background=0d0d12&border=534AB7&ring=7F77DD&fire=AFA9EC&currStreakLabel=AFA9EC&sideLabels=c8c4e8&dates=6e6e7c"/>
+<img src="https://streak-stats.demolab.com/?user=revolover00&theme=tokyonight&background=0d0d12&border=534AB7&ring=7F77DD&fire=AFA9EC&currStreakLabel=AFA9EC&sideLabels=c8c4e8&dates=6e6e7c"/>
 
 </div>
 
