@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="250" viewBox="0 0 920 250" role="img" aria-label="What I build">
+  <title>What I build</title>
+  <g>
+    <rect x="1" y="1" width="290" height="228" rx="14" fill="#0A0F16"/>
+    <rect x="1" y="1" width="290" height="228" rx="14" fill="none" stroke="#16212D" stroke-width="1.2"/>
+    <rect x="1" y="1" width="290" height="2" rx="1" fill="#22E6FF" fill-opacity="0.6"/>
+    <g stroke="#22E6FF" stroke-width="1.5" fill="none" stroke-linejoin="round">
+        <rect x="28" y="40" width="30" height="30" rx="6"/>
+        <rect x="40" y="52" width="6" height="6" rx="1.5" fill="#22E6FF" stroke="none"/>
+        <path d="M28 50h-6M28 60h-6M58 50h6M58 60h6M39 40v-6M47 40v-6M39 70v6M47 70v6"/>
+      </g>
+    <text x="28" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="700" letter-spacing="2.2" fill="#E7F1F7">AI PRODUCTS</text>
+    <text x="28" y="150" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13.5" fill="#7E8C99">Gemini / OpenAI features, chat,</text><text x="28" y="172" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13.5" fill="#7E8C99">summarisation, smart extraction.</text>
+  </g><g>
+    <rect x="315" y="1" width="290" height="228" rx="14" fill="#0A0F16"/>
+    <rect x="315" y="1" width="290" height="228" rx="14" fill="none" stroke="#16212D" stroke-width="1.2"/>
+    <rect x="315" y="1" width="290" height="2" rx="1" fill="#8B5CF6" fill-opacity="0.6"/>
+    <g stroke="#8B5CF6" stroke-width="1.5" fill="none" stroke-linejoin="round">
+        <rect x="338" y="40" width="38" height="30" rx="6"/>
+        <path d="M338 50h38"/>
+        <circle cx="346" cy="45" r="1.8" fill="#8B5CF6" stroke="none"/>
+        <circle cx="352" cy="45" r="1.8" fill="#8B5CF6" stroke="none"/>
+        <path d="M348 60l-6 8 6 6M366 60l6 8-6 6"/>
+      </g>
+    <text x="342" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="700" letter-spacing="2.2" fill="#E7F1F7">WEB PLATFORMS</text>
+    <text x="342" y="150" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13.5" fill="#7E8C99">Next.js + TypeScript apps,</text><text x="342" y="172" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13.5" fill="#7E8C99">dashboards, landing pages.</text>
+  </g><g>
+    <rect x="629" y="1" width="290" height="228" rx="14" fill="#0A0F16"/>
+    <rect x="629" y="1" width="290" height="228" rx="14" fill="none" stroke="#16212D" stroke-width="1.2"/>
+    <rect x="629" y="1" width="290" height="2" rx="1" fill="#4DFFC4" fill-opacity="0.6"/>
+    <g stroke="#4DFFC4" stroke-width="1.5" fill="none" stroke-linejoin="round">
+        <path d="M676 38l-16 20h11l-5 18 17-22H673z"/>
+        <circle cx="671" cy="55" r="19" stroke-opacity="0.25"/>
+      </g>
+    <text x="656" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="700" letter-spacing="2.2" fill="#E7F1F7">AUTOMATION</text>
+    <text x="656" y="150" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13.5" fill="#7E8C99">OCR pipelines, PDF &amp; Excel</text><text x="656" y="172" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13.5" fill="#7E8C99">wrangling, API tooling.</text>
+  </g>
+</svg>
