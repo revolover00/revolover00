@@ -1,7 +1,6 @@
 <!-- ─────────────────────────────────────────────────────────────
-     BANNER — replace assets/banner.jpg with your own image and you're done.
-     Recommended size: 1600x560 (JPG or PNG). assets/banner.svg is the
-     editable source of the current one.
+     BANNER — to use your own image: upload it as assets/banner.jpg
+     (any wide image, ~1400-1600px). The filename is all that matters.
      ───────────────────────────────────────────────────────────── -->
 <div align="center">
   <img src="assets/banner.jpg" width="100%" alt="Baldwin — full-stack developer"/>
