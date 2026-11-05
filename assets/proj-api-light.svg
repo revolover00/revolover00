@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="152" viewBox="0 0 920 152" role="img" aria-label="API TESTER">
+  <title>API TESTER</title>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0891B2" stop-opacity="0.75"/>
+      <stop offset="0.45" stop-color="#0891B2" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="918" height="150" rx="16" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="918" height="150" rx="16" fill="none" stroke="url(#edge)" stroke-width="1.4"/>
+  <rect x="3" y="26" width="3" height="100" rx="1.5" fill="#0891B2" fill-opacity="0.9"/>
+  <text x="40" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.5" fill="#8B98A5">04</text>
+  <text x="86" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="23" font-weight="700" letter-spacing="0.6" fill="#0B1220">API TESTER</text>
+  <text x="86" y="78" font-family="Inter, Helvetica, Arial, sans-serif" font-size="14.5" fill="#55636F">A Postman alternative that runs entirely in the browser. No install, no login.</text>
+  <rect x="86.0" y="106" width="61.4" height="22" rx="11" fill="#0891B2" fill-opacity="0.06" stroke="#DCE4EC" stroke-width="1"/><text x="98.0" y="121" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.1" fill="#55636F">REACT</text><rect x="155.4" y="106" width="61.4" height="22" rx="11" fill="#0891B2" fill-opacity="0.06" stroke="#DCE4EC" stroke-width="1"/><text x="167.4" y="121" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.1" fill="#55636F">FETCH</text><rect x="224.8" y="106" width="84.5" height="22" rx="11" fill="#0891B2" fill-opacity="0.06" stroke="#DCE4EC" stroke-width="1"/><text x="236.8" y="121" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.1" fill="#55636F">DEVTOOLS</text>
+  <text x="888" y="46" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#0891B2">REPO ↗</text>
+  <text x="888" y="121" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.6" fill="#059669">OPEN SOURCE</text>
+</svg>

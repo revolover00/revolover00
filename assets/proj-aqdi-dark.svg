@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="152" viewBox="0 0 920 152" role="img" aria-label="AQDI">
+  <title>AQDI</title>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22E6FF" stop-opacity="0.75"/>
+      <stop offset="0.45" stop-color="#22E6FF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="918" height="150" rx="16" fill="#0A0F16"/>
+  <rect x="1" y="1" width="918" height="150" rx="16" fill="none" stroke="url(#edge)" stroke-width="1.4"/>
+  <rect x="3" y="26" width="3" height="100" rx="1.5" fill="#22E6FF" fill-opacity="0.9"/>
+  <text x="40" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.5" fill="#46525E">01</text>
+  <text x="86" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="23" font-weight="700" letter-spacing="0.6" fill="#E7F1F7">AQDI</text>
+  <text x="86" y="78" font-family="Inter, Helvetica, Arial, sans-serif" font-size="14.5" fill="#7E8C99">AI contract generator — sign digitally, export PDF, run 100% offline.</text>
+  <rect x="86.0" y="106" width="38.3" height="22" rx="11" fill="#22E6FF" fill-opacity="0.06" stroke="#16212D" stroke-width="1"/><text x="98.0" y="121" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.1" fill="#7E8C99">AI</text><rect x="132.3" y="106" width="76.8" height="22" rx="11" fill="#22E6FF" fill-opacity="0.06" stroke="#16212D" stroke-width="1"/><text x="144.3" y="121" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.1" fill="#7E8C99">NEXT.JS</text><rect x="217.1" y="106" width="46.0" height="22" rx="11" fill="#22E6FF" fill-opacity="0.06" stroke="#16212D" stroke-width="1"/><text x="229.1" y="121" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.1" fill="#7E8C99">PDF</text>
+  <text x="888" y="46" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#22E6FF">REPO ↗</text>
+  <text x="888" y="121" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.6" fill="#4DFFC4">OFFLINE-FIRST</text>
+</svg>
