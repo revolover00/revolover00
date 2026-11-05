@@ -22,7 +22,7 @@ I like software that runs on your machine, works without an account, and keeps w
 
 <br clear="all"/>
 
-<br/>
+<img src="assets/scribble-divider.svg" width="100%" alt=""/>
 
 <img src="assets/quote.svg" width="100%" alt="I'm not a psychic. I just pay attention."/>
 
@@ -52,20 +52,22 @@ I like software that runs on your machine, works without an account, and keeps w
   <img width="100%" src="assets/stats.svg" alt="GitHub statistics"/>
 </p>
 
-<br/>
+<img src="assets/scribble-divider.svg" width="100%" alt=""/>
 
 <div align="center">
   <img src="assets/plate-links.svg" width="100%" alt="Find me"/>
 </div>
 
 <div align="center">
+  <img src="assets/scribble-arrow.svg" width="240" alt=""/>
+</div>
 
-<a href="https://github.com/revolover00"><img src="assets/btn-github.svg" height="46" alt="GitHub"/></a>
-&nbsp;
+<div align="center">
+
 <a href="https://www.linkedin.com/in/patrick-jane"><img src="assets/btn-linkedin.svg" height="46" alt="LinkedIn"/></a>
-&nbsp;
+&nbsp;&nbsp;
 <a href="https://www.instagram.com/pat_jane_div/"><img src="assets/btn-instagram.svg" height="46" alt="Instagram"/></a>
-&nbsp;
+&nbsp;&nbsp;
 <a href="mailto:abeehameed58@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email"/></a>
 
 <br/><br/>
