@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="54" viewBox="0 0 920 54" role="img" aria-label="divider">
+  <g fill="none" stroke="#C1121F" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20.0 25.4 L50.3 29.0 L80.7 29.2 L111.0 27.5 L141.4 28.9 L171.7 29.0 L202.1 30.0 L232.4 30.6 L262.8 27.6 L293.1 27.1 L323.4 30.3 L353.8 28.1 L384.1 29.1 L414.5 25.3 L444.8 26.7 L475.2 27.3 L505.5 24.7 L535.9 27.3 L566.2 26.8 L596.6 22.8 L626.9 22.6 L657.2 24.8 L687.6 26.6 L717.9 24.4 L748.3 24.0 L778.6 25.3 L809.0 24.1 L839.3 25.5 L869.7 26.9 L900.0 27.7" stroke-width="1.9" stroke-opacity="0.55"/>
+    <path d="M34.0 32.3 L60.2 32.6 L86.4 30.4 L112.6 30.7 L138.8 33.1 L164.9 33.1 L191.1 33.0 L217.3 32.0 L243.5 32.9 L269.7 32.8 L295.9 32.6 L322.1 31.2 L348.2 31.8 L374.4 31.4 L400.6 32.0 L426.8 32.5 L453.0 32.0 L479.2 30.6 L505.4 30.0 L531.6 29.2 L557.8 28.3 L583.9 28.2 L610.1 29.3 L636.3 28.9 L662.5 29.1 L688.7 30.7 L714.9 29.8 L741.1 30.1 L767.2 29.5 L793.4 29.1 L819.6 30.3 L845.8 30.1 L872.0 31.5" stroke-width="0.9" stroke-opacity="0.28"/>
+    <path d="M88.9 20.1 L103.8 33.9" stroke-width="1.7" stroke-opacity="0.7"/>
+    <path d="M103.0 20.2 L88.4 34.0" stroke-width="1.7" stroke-opacity="0.7"/>
+    <path d="M816.9 20.3 L831.3 33.3" stroke-width="1.7" stroke-opacity="0.55"/>
+    <path d="M830.0 19.7 L816.5 34.6" stroke-width="1.7" stroke-opacity="0.55"/>
+  </g>
+</svg>
