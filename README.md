@@ -1,12 +1,11 @@
+<!-- ─────────────────────────────────────────────────────────────
+     BANNER — replace assets/banner.jpg with your own image and you're done.
+     Recommended size: 1600x560 (JPG or PNG). assets/banner.svg is the
+     editable source of the current one.
+     ───────────────────────────────────────────────────────────── -->
 <div align="center">
-  <img src="assets/banner.svg" width="100%" alt="Baldwin — full-stack developer"/>
+  <img src="assets/banner.jpg" width="100%" alt="Baldwin — full-stack developer"/>
 </div>
-
-<p align="center">
-  <a href="https://github.com/revolover00?tab=repositories"><img src="https://img.shields.io/github/stars/revolover00?style=for-the-badge&label=STARS&labelColor=0A0807&color=C1121F&logo=github&logoColor=E8E1D5" alt="Stars"/></a>
-  <a href="https://github.com/revolover00?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Frevolover00&query=public_repos&label=REPOS&style=for-the-badge&labelColor=0A0807&color=C1121F&logo=git&logoColor=E8E1D5" alt="Repositories"/></a>
-  <a href="https://github.com/revolover00"><img src="https://img.shields.io/github/followers/revolover00?style=for-the-badge&label=FOLLOWERS&labelColor=0A0807&color=C1121F&logo=github&logoColor=E8E1D5" alt="Followers"/></a>
-</p>
 
 <br/>
 
@@ -43,7 +42,7 @@ I like software that runs on your machine, works without an account, and keeps w
 </div>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=revolover00&bg_color=0A0807&color=C1121F&title_color=C1121F&line=C1121F&point=E8E1D5&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution graph"/>
+  <img width="100%" src="assets/contrib.svg" alt="Contribution activity"/>
 </p>
 
 <div align="center">
@@ -51,8 +50,7 @@ I like software that runs on your machine, works without an account, and keeps w
 </div>
 
 <p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=revolover00&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0A0807&border_color=C1121F&title_color=C1121F&icon_color=C1121F&text_color=E8E1D5" alt="GitHub stats"/>
-  <img height="170em" src="https://streak-stats.demolab.com?user=revolover00&background=0A0807&border=C1121F&stroke=C1121F&ring=C1121F&fire=C1121F&currStreakNum=E8E1D5&sideNums=E8E1D5&currStreakLabel=C1121F&sideLabels=8C8378&dates=8C8378" alt="Streak"/>
+  <img width="100%" src="assets/stats.svg" alt="GitHub statistics"/>
 </p>
 
 <br/>
@@ -63,8 +61,9 @@ I like software that runs on your machine, works without an account, and keeps w
 
 <div align="center">
 
-<a href="https://github.com/revolover00"><img src="https://img.shields.io/badge/GITHUB-C1121F?style=for-the-badge&logo=github&logoColor=E8E1D5&labelColor=0A0807" alt="GitHub"/></a>
-<a href="mailto:revolover00@gmail.com"><img src="https://img.shields.io/badge/GMAIL-C1121F?style=for-the-badge&logo=gmail&logoColor=E8E1D5&labelColor=0A0807" alt="Email"/></a>
+<a href="https://github.com/revolover00"><img src="assets/btn-github.svg" height="46" alt="GitHub"/></a>
+&nbsp;
+<a href="mailto:revolover00@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email"/></a>
 
 <br/><br/>
 
