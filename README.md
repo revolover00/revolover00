@@ -3,7 +3,7 @@
      (any wide image, ~1400-1600px). The filename is all that matters.
      ───────────────────────────────────────────────────────────── -->
 <div align="center">
-  <img src="assets/banner.jpg" width="100%" alt="Baldwin — full-stack developer"/>
+  <img src="assets/banner.jpg" width="100%" alt="Patrick Jane — full-stack developer"/>
 </div>
 
 <br/>
@@ -76,6 +76,6 @@ I like software that runs on your machine, works without an account, and keeps w
 
 <br/>
 
-<sub>© Baldwin · Cairo, Egypt</sub>
+<sub>© Patrick Jane · Cairo, Egypt</sub>
 
 </div>
