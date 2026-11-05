@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="96" viewBox="0 0 640 96" role="img" aria-label="WHO AM I?">
-  <defs><pattern id="ph" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3.0" cy="3.0" r="2.0689655172413794" fill="#E60012" fill-opacity="0.5"/></pattern></defs>
-  <g transform="skewX(-12)">
-    <rect x="34" y="24" width="550" height="52" fill="#E60012"/>
-    <rect x="34" y="24" width="550" height="52" fill="url(#ph)" opacity="0.55"/>
-  </g>
-  <text x="320.0" y="61" text-anchor="middle" font-family="Impact, 'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="32" letter-spacing="5" fill="#F5F5F5">WHO AM I?</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="104" viewBox="0 0 920 104" role="img" aria-label="Who Am I">
+  <text x="460.0" y="26" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="6" fill="#C1121F">ABOUT ME</text>
+  <text x="460.0" y="78" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#E8E1D5">Who Am I</text>
+  <line x1="0" y1="66" x2="330.8" y2="66" stroke="#E8E1D5" stroke-opacity="0.16"/>
+  <line x1="589.2" y1="66" x2="920" y2="66" stroke="#E8E1D5" stroke-opacity="0.16"/>
+  <path d="M339.8 61.5l4.5 4.5-4.5 4.5-4.5-4.5z" fill="#C1121F"/>
+  <path d="M580.2 61.5l4.5 4.5-4.5 4.5-4.5-4.5z" fill="#C1121F"/>
 </svg>
