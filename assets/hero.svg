@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Baldwin — full-stack developer, Cairo">
-  <title>Baldwin — full-stack developer, Cairo</title>
-  <rect x="0.5" y="0.5" width="1199" height="219" rx="16" fill="#08090B" stroke="#1F242B"/>
-  <circle cx="76" cy="62" r="4" fill="#3FB950"/>
-  <text x="92" y="66" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.6" fill="#8B949E">AVAILABLE FOR WORK · CAIRO, EGYPT</text>
-  <text x="72" y="132" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="62" font-weight="600" fill="#F0F3F6">Baldwin</text>
-  <text x="72" y="172" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#8B949E">Full-stack developer. I build AI products end to end — the model calls, the interface, the deploy.</text>
-</svg>

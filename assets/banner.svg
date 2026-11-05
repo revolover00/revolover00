@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Baldwin — Developer">
+  <title>Baldwin — Developer</title>
+  <defs>
+    <pattern id="ht" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="3.5" cy="3.5" r="2.413793103448276" fill="#F5F5F5" fill-opacity="0.1"/></pattern>
+    <pattern id="htr" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3.0" cy="3.0" r="2.0689655172413794" fill="#E60012" fill-opacity="0.45"/></pattern>
+    <linearGradient id="rg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF2233"/><stop offset="0.5" stop-color="#E60012"/><stop offset="1" stop-color="#A8000D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="#050505"/>
+  <rect width="1200" height="300" fill="url(#ht)"/>
+
+  <path d="M-20 0 L790 0 L740 300 L-20 300 Z" fill="url(#rg)"/>
+  <path d="M-20 0 L790 0 L740 300 L-20 300 Z" fill="url(#htr)" opacity="0.5"/>
+
+  <g transform="translate(78,0) skewX(-6)">
+    <text x="0" y="152" font-family="Impact, 'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="96" font-weight="900" fill="#F5F5F5" letter-spacing="1">BALDWIN</text>
+    <rect x="4" y="178" width="150" height="5" fill="#050505" fill-opacity="0.55"/>
+    <text x="4" y="215" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" letter-spacing="8" fill="#050505" fill-opacity="0.85">DEVELOPER</text>
+  </g>
+
+  <g>
+    <path d="M812 40 l14 0 l-26 62 l-14 0 Z" fill="#E60012"/>
+    <path d="M842 40 l14 0 l-26 62 l-14 0 Z" fill="#E60012"/>
+    <path d="M872 40 l14 0 l-26 62 l-14 0 Z" fill="#E60012"/>
+  </g>
+
+  <text x="812" y="152" font-family="Impact, 'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="42" fill="#F5F5F5" letter-spacing="1">FULL-STACK</text>
+  <rect x="812" y="168" width="86" height="3" fill="#E60012"/>
+  <text x="812" y="200" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="3.6" fill="#9A9A9A">AI · WEB · AUTOMATION</text>
+  <text x="812" y="228" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="3.6" fill="#9A9A9A">CAIRO, EGYPT</text>
+
+  <rect x="0" y="290" width="1200" height="10" fill="#E60012"/>
+  <rect x="0" y="290" width="1200" height="10" fill="url(#htr)"/>
+</svg>

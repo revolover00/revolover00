@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="96" viewBox="0 0 640 96" role="img" aria-label="STATS">
+  <defs><pattern id="ph" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3.0" cy="3.0" r="2.0689655172413794" fill="#E60012" fill-opacity="0.5"/></pattern></defs>
+  <g transform="skewX(-12)">
+    <rect x="34" y="24" width="550" height="52" fill="#E60012"/>
+    <rect x="34" y="24" width="550" height="52" fill="url(#ph)" opacity="0.55"/>
+  </g>
+  <text x="320.0" y="61" text-anchor="middle" font-family="Impact, 'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="32" letter-spacing="5" fill="#F5F5F5">STATS</text>
+</svg>
