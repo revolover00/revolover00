@@ -62,6 +62,7 @@ for (let i = days.length - 1; i >= 0; i--) {
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 const fmt = (n) => n.toLocaleString('en-US');
+const stamp = new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC' }).toUpperCase();
 
 /* ------------------------------------------------------------ stats card */
 const cells = [
@@ -82,12 +83,13 @@ const statsSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${SW}" height="
     <text x="${cw * i + cw / 2}" y="108" text-anchor="middle" font-family="${SERIF}" font-size="46" fill="${CREAM}">${c[1]}</text>
     ${i ? `<line x1="${cw * i}" y1="34" x2="${cw * i}" y2="134" stroke="${LINE}"/>` : ''}
   </g>`).join('')}
+  <text x="14" y="${SH - 12}" font-family="${MONO}" font-size="8" letter-spacing="1.6" fill="${MUTED}">UPDATED ${stamp}</text>
   <rect x="0" y="${SH - 3}" width="${SW}" height="3" fill="${RED}"/>
 </svg>`;
 
 /* ------------------------------------------------------- contribution graph */
 const GW = 920, GH = 260;
-const padL = 40, padR = 24, padT = 54, padB = 40;
+const padL = 40, padR = 24, padT = 66, padB = 40;
 const plotW = GW - padL - padR, plotH = GH - padT - padB;
 const max = Math.max(1, ...days.map(d => d.contributionCount));
 const x = i => padL + (i / (days.length - 1)) * plotW;
@@ -114,6 +116,7 @@ const contribSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${GW}" height
   <rect x="0.5" y="0.5" width="${GW - 1}" height="${GH - 1}" fill="${BG}" stroke="${LINE}"/>
   <text x="${padL}" y="32" font-family="${MONO}" font-size="10" letter-spacing="4" fill="${RED}">CONTRIBUTION ACTIVITY</text>
   <text x="${GW - padR}" y="32" text-anchor="end" font-family="${MONO}" font-size="10" letter-spacing="3" fill="${MUTED}">${fmt(total)} IN THE LAST YEAR</text>
+  <text x="${GW - padR}" y="52" text-anchor="end" font-family="${MONO}" font-size="8.5" letter-spacing="2" fill="${MUTED}" fill-opacity="0.8">UPDATED ${stamp}</text>
   ${[0.25, 0.5, 0.75, 1].map(f => `<line x1="${padL}" y1="${(padT + plotH - f * plotH).toFixed(1)}" x2="${GW - padR}" y2="${(padT + plotH - f * plotH).toFixed(1)}" stroke="${CREAM}" stroke-opacity="0.07"/>`).join('')}
   <line x1="${padL}" y1="${padT + plotH}" x2="${GW - padR}" y2="${padT + plotH}" stroke="${CREAM}" stroke-opacity="0.2"/>
   <path d="${area}" fill="url(#fade)"/>

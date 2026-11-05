@@ -27,5 +27,6 @@
     <text x="828" y="108" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#E8E1D5">5</text>
     <line x1="736" y1="34" x2="736" y2="134" stroke="#231A18"/>
   </g>
+  <text x="14" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" letter-spacing="1.6" fill="#8C8378">UPDATED 05 NOV 2026</text>
   <rect x="0" y="165" width="920" height="3" fill="#C1121F"/>
 </svg>

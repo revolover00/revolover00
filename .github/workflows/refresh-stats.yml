@@ -21,7 +21,9 @@ jobs:
       - name: Regenerate stats + contribution graph
         run: node scripts/gen-stats.mjs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Uses your own PAT if you add one as STATS_TOKEN (optional),
+          # otherwise the built-in token — which is enough for public data.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           GH_LOGIN: revolover00
 
       - name: Commit if changed
