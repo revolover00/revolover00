@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="420" viewBox="0 0 330 420" role="img" aria-label="decoration">
+  <defs><pattern id="sh" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4.0" cy="4.0" r="2.7586206896551726" fill="#E60012" fill-opacity="0.45"/></pattern><linearGradient id="sg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF2233"/><stop offset="1" stop-color="#8A000A"/></linearGradient></defs>
+  <rect width="330" height="420" fill="#050505"/>
+  <rect width="330" height="420" fill="url(#sh)" opacity="0.3"/>
+  <path d="M165.0 60 L290 210.0 L165.0 360 L40 210.0 Z" fill="url(#sg)"/>
+  <path d="M165.0 100 L225.0 210.0 L165.0 320 L105.0 210.0 Z" fill="#050505" fill-opacity="0.55"/>
+  <g stroke="#F5F5F5" stroke-width="2.5" fill="none" opacity="0.85">
+    <path d="M119.0 210.0 h92"/><path d="M165.0 164.0 v92"/>
+  </g>
+  <path d="M0 356 L330 324 L330 420 L0 420 Z" fill="#101010"/>
+  <rect x="0" y="416" width="330" height="4" fill="#E60012"/>
+</svg>

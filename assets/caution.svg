@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="156" viewBox="0 0 980 156" role="img" aria-label="note">
+  <rect x="1.5" y="1.5" width="977" height="153" fill="#050505" stroke="#E60012" stroke-width="1.5"/>
+  <rect x="1.5" y="1.5" width="7" height="153" fill="#E60012"/>
+  <circle cx="48" cy="44" r="13" fill="none" stroke="#E60012" stroke-width="2.5"/>
+  <rect x="46.4" y="36" width="3.2" height="11" rx="1.6" fill="#E60012"/>
+  <circle cx="48" cy="52.5" r="2" fill="#E60012"/>
+  <text x="74" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" letter-spacing="4" fill="#E60012">CAUTION</text>
+  <text x="48" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#F5F5F5">Code is never finished. It only gets better.</text>
+  <text x="48" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#9A9A9A">Everything here is built with practice, curiosity and stubbornness.</text>
+</svg>
