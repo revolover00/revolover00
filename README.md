@@ -62,7 +62,11 @@ I like software that runs on your machine, works without an account, and keeps w
 
 <a href="https://github.com/revolover00"><img src="assets/btn-github.svg" height="46" alt="GitHub"/></a>
 &nbsp;
-<a href="mailto:revolover00@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/patrick-jane"><img src="assets/btn-linkedin.svg" height="46" alt="LinkedIn"/></a>
+&nbsp;
+<a href="https://www.instagram.com/pat_jane_div/"><img src="assets/btn-instagram.svg" height="46" alt="Instagram"/></a>
+&nbsp;
+<a href="mailto:abeehameed58@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email"/></a>
 
 <br/><br/>
 
