@@ -8,11 +8,18 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: refresh-stats
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -28,12 +35,17 @@ jobs:
 
       - name: Commit if changed
         run: |
+          set -e
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add assets/stats.svg assets/contrib.svg
           if git diff --staged --quiet; then
-            echo "Nothing changed."
-          else
-            git commit -m "chore: refresh profile stats"
-            git push
+            echo "Nothing changed — stats are already up to date."
+            exit 0
           fi
+
+          git commit -m "chore: refresh profile stats"
+          git pull --rebase origin main
+          # explicit HEAD:main works even on a detached checkout
+          git push origin HEAD:main
