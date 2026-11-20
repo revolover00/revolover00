@@ -6,6 +6,8 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { buildContributionGeometry } from './contribution-graph.mjs';
 
 const LOGIN = process.argv[2] || process.env.GH_LOGIN || 'revolover00';
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -60,7 +62,6 @@ for (let i = days.length - 1; i >= 0; i--) {
   else break;
 }
 
-const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 const fmt = (n) => n.toLocaleString('en-US');
 const stamp = new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC' }).toUpperCase();
 
@@ -91,18 +92,17 @@ const statsSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${SW}" height="
 const GW = 920, GH = 260;
 const padL = 40, padR = 24, padT = 66, padB = 40;
 const plotW = GW - padL - padR, plotH = GH - padT - padB;
-const max = Math.max(1, ...days.map(d => d.contributionCount));
-const x = i => padL + (i / (days.length - 1)) * plotW;
-const y = v => padT + plotH - (v / max) * plotH;
-
-const line = days.map((d, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)} ${y(d.contributionCount).toFixed(1)}`).join(' ');
-const area = `${line} L${x(days.length - 1).toFixed(1)} ${padT + plotH} L${padL} ${padT + plotH} Z`;
+const { days: graphDays, x, y, line, area } = buildContributionGeometry(days, {
+  padL, padT, plotW, plotH,
+});
 
 const months = [];
 let lastMonth = -1;
-days.forEach((d, i) => {
-  const m = new Date(d.date + 'T00:00:00Z').getUTCMonth();
-  if (m !== lastMonth) { months.push({ i, label: new Date(d.date + 'T00:00:00Z').toLocaleString('en-US', { month: 'short', timeZone: 'UTC' }).toUpperCase() }); lastMonth = m; }
+graphDays.forEach((d, i) => {
+  const date = new Date(d.date + 'T00:00:00Z');
+  if (Number.isNaN(date.getTime())) return;
+  const m = date.getUTCMonth();
+  if (m !== lastMonth) { months.push({ i, label: date.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' }).toUpperCase() }); lastMonth = m; }
 });
 
 const contribSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${GW}" height="${GH}" viewBox="0 0 ${GW} ${GH}" role="img" aria-label="Contribution activity">
@@ -125,7 +125,7 @@ const contribSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${GW}" height
   <rect x="0" y="${GH - 3}" width="${GW}" height="3" fill="${RED}"/>
 </svg>`;
 
-const out = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'assets');
+const out = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'assets');
 fs.writeFileSync(path.join(out, 'stats.svg'), statsSvg);
 fs.writeFileSync(path.join(out, 'contrib.svg'), contribSvg);
 console.log(`stats.svg + contrib.svg written — ${fmt(total)} contributions, ${stars} stars, ${repos} repos, ${followers} followers, streak ${streak}d`);
